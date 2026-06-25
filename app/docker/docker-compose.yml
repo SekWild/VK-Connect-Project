@@ -1,0 +1,11 @@
+services:
+  vk-connect:
+    build:
+      context: ../..
+      dockerfile: app/docker/Dockerfile
+    env_file:
+      - ../../.env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../../data:/app/data

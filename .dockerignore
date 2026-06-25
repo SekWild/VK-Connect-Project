@@ -1,0 +1,16 @@
+.venv/
+.env
+AGENT.md
+changelog.txt
+доработка.txt
+test_service.py
+.git/
+data/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.py[cod]
+.idea/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
